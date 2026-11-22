@@ -1,0 +1,35 @@
+{
+  "name": "esep-observability",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parthupadhyaya/esep-observability.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/parthupadhyaya/esep-observability/issues"
+  },
+  "homepage": "https://github.com/parthupadhyaya/esep-observability#readme",
+  "dependencies": {
+    "@opentelemetry/api": "^1.10.0",
+    "@opentelemetry/auto-instrumentations-node": "^0.83.1",
+    "@opentelemetry/exporter-jaeger": "^2.12.1",
+    "@opentelemetry/exporter-trace-otlp-http": "^0.301.2",
+    "@opentelemetry/instrumentation-http": "^0.301.2",
+    "@opentelemetry/instrumentation-mongodb": "^0.78.0",
+    "@opentelemetry/sdk-metrics": "^3.1.1",
+    "@opentelemetry/sdk-node": "^0.301.2",
+    "@opentelemetry/sdk-trace-node": "^2.12.1",
+    "express": "^5.3.0",
+    "mongodb": "^4.3.1",
+    "opentelemetry-instrumentation-express": "^0.41.0"
+  }
+}
